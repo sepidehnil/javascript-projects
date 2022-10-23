@@ -1,0 +1,22 @@
+#background{
+	background-color: hotpink;
+	text-align:center;
+}
+#stopwatch{
+	color: white;
+}
+#minute,#second, #ten{
+	font-size: 2em;
+	color: white;
+}
+#start,#stop,#reset{
+	color: white;
+	background-color: hotpink;
+	border: solid white 2px;
+	margin: 25px;
+	border-radius: 15px;
+	height: 60px;
+	width: 90px;
+
+}
+

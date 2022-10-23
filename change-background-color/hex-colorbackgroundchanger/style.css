@@ -1,0 +1,21 @@
+
+button{
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+    margin: 0%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 15px 10px;
+}
+#hexdisplay{
+    color: black;
+    font-size: 1.5em;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
+}

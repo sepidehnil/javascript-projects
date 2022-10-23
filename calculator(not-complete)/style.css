@@ -1,0 +1,84 @@
+body {
+  width: 500px;
+  margin: 4% auto;
+  letter-spacing: 5px;
+  font-size: 1.4rem;
+}
+#box{
+  padding: 20px;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);;
+  border-radius: 1px;
+
+}
+.input{
+  border: 1px solid #ddd;
+  border-radius: 1px;
+  height: 60px;
+  padding-right: 15px;
+  padding-top: 10px;
+  text-align: right;
+  margin-right: 6px;
+  font-size: 2.5rem;
+
+}
+.input:hover{
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border: 1px solid #bbb;
+
+}
+.operators div {
+  display: inline-block;
+  border: 1px solid #bbb;
+  border-radius: 1px;
+  width: 80px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 4px 10px 0px;
+  cursor: pointer;
+  background-color: #ddd;
+  
+}
+.operators div:hover {
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #aaa;
+
+}
+.leftPanel {
+  display: inline-block;
+}
+.numbers div{
+    display: inline-block;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin: 20px 5px 10px 0;
+    width: 80px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #bbb;
+    border-radius: 1px;
+
+}
+.numbers div:hover{
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #aaa;
+    background-color: #f1f1f1
+}
+div.equal{
+    display: inline-block;
+    margin: 20px 5px 10px 0;
+    width: 80px;
+    background-color: #4d90fe;
+    text-align: center;
+    cursor: pointer;
+    padding: 127px 9px;
+    vertical-align: top;
+    border: 1px solid #3079ED;
+    border-radius: 1px;
+    color: #FFF;
+}
+div.equal:hover {
+  background-color: #307CF9;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  border-color: #1857BB;
+}
+
